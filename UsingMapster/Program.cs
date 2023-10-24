@@ -1,6 +1,14 @@
 ﻿using UsingMapster;
 using Sharprompt;
 using UsingMapster.DTOs;
+using Microsoft.Extensions.DependencyInjection;
+
+var services = new ServiceCollection();
+services.MapsterConfigRegistration();
+
+
+
+
 
 var service  = new UserService();
 

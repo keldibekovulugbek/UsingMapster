@@ -2,6 +2,7 @@
 using UsingMapster.DTOs;
 using UsingMapster.Entites;
 using Mapster;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace UsingMapster;
 
